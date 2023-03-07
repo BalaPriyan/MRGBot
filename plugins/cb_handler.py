@@ -71,10 +71,8 @@ async def callback_handler(c: Client, cb: CallbackQuery):
             text="Okay I'll upload to drive\nDo you want to rename? Default file name is **[@yashoswalyo]_merged.mkv**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton("👆 Default", callback_data="rename_NO"),
-                        InlineKeyboardButton("✍️ Rename", callback_data="rename_YES"),
-                    ],
+                    [InlineKeyboardButton("👆 Default", callback_data="rename_NO")],
+                    [InlineKeyboardButton("✍️ Rename", callback_data="rename_YES")],
                     [InlineKeyboardButton("⛔ Cancel ⛔", callback_data="cancel")],
                 ]
             ),
@@ -103,10 +101,8 @@ async def callback_handler(c: Client, cb: CallbackQuery):
             text="Do you want to rename? Default file name is **[@yashoswalyo]_merged.mkv**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton("👆 Default", callback_data="rename_NO"),
-                        InlineKeyboardButton("✍️ Rename", callback_data="rename_YES"),
-                    ],
+                    [InlineKeyboardButton("👆 Default", callback_data="rename_NO")],
+                    [InlineKeyboardButton("✍️ Rename", callback_data="rename_YES")],
                     [InlineKeyboardButton("⛔ Cancel ⛔", callback_data="cancel")],
                 ]
             ),
@@ -119,10 +115,8 @@ async def callback_handler(c: Client, cb: CallbackQuery):
             text="Do you want to rename? Default file name is **[@yashoswalyo]_merged.mkv**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton("👆 Default", callback_data="rename_NO"),
-                        InlineKeyboardButton("✍️ Rename", callback_data="rename_YES"),
-                    ],
+                    [InlineKeyboardButton("👆 Default", callback_data="rename_NO")],
+                    [InlineKeyboardButton("✍️ Rename", callback_data="rename_YES")],
                     [InlineKeyboardButton("⛔ Cancel ⛔", callback_data="cancel")],
                 ]
             ),
